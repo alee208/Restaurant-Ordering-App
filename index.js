@@ -207,26 +207,3 @@ document.getElementById('menu-container').innerHTML = getMenu(menuArray)
 
 
 
-
-
-
-
-
-
-/* 
-<h3>Your Order</h3>
-<div class="total-order-container" id="total-order-container">
-    <div class="order-container">
-        <p class="order-item" id="order-item">Pizza</p>
-        <button class="remove-btn" id="remove-btn">remove</button>
-        <div class="order-item-price" id="order-item-price">
-            <p class="order-price" id="order-price">$14</p>
-        </div>
-    </div>
-</div>
-<div class="total-container" id="total-container">
-    <p class="total" id="total">Total Price:</p>
-    <p class="total-price" id="total-price">$14</p>
-</div>
-<button class="complete-btn" id="complete-btn">Complete Order</button>
-*/
