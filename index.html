@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Happy+Monkey&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Karla:ital,wght@0,200..800;1,200..800&family=Libre+Baskerville:wght@400;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Orbitron:wght@800&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Smythe&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Happy+Monkey&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Karla:ital,wght@0,200..800;1,200..800&family=Libre+Baskerville:wght@400;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Orbitron:wght@800&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Smythe&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container" id="container">
+            <div class="title">
+                <h1>Andy's Diner</h1>
+                <h2>The best burgers and pizzas in town.</h2>
+            </div>
+            <div class="menu-container" id="menu-container"></div>
+            <div class="order-summary hidden" id="order-summary">
+                <div class="total-order-container" id="total-order-container"></div>
+            <div class="msg-container" id="msg-container">
+    
+            </div>
+
+            <div class="modal-container" id="modal-container">
+                <h2 class="modal-title">Enter card details</h2>
+                <button class="close-modal-btn" id="close-modal-btn">X</button>
+                <form class="modal" id="modal">
+                    <input type="text" id="customerName" name="customerName" placeholder="Enter your name" required>
+                    <input type="number" id="cardNumber" name="cardNumber" placeholder="Enter card number" required>
+                    <input type="number" id="cvv" name="cvv" placeholder="Enter CVV" required>
+                    <button class="pay-btn" id="pay-btn">Pay</button>
+                </form>
+            </div>
+            
+        </div>
+
+
+
+
+
+
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
